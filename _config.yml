@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Nicholas Piercy"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Nicholas_Piercy_Headshot_11-21-2018.jpg"
   bio    : "Graduate student in the Mechanical and Materials Engineering department at The University of Nebraska - Lincoln." # "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
