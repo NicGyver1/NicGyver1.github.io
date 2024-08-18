@@ -73,9 +73,9 @@ author:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-linkedin"
+      url: "https://github.com/NicGyver1"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
       url: "https://linkedin.com/in/piercynicholas"
 
 footer:
@@ -85,10 +85,10 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/NicGyver1"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/"
+    - label: "LinkedIn"
+      icon: "fa-brands fa-linkedin"
+      url: "https://linkedin.com"
 
 defaults:
   # _posts
