@@ -1,5 +1,6 @@
 ---
 permalink: /about/
+layout: single
 title: "About Me"
 toc: true
 toc_sticky: true
