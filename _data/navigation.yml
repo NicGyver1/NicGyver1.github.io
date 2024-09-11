@@ -2,8 +2,8 @@ main:
   - title: "Posts"
     url: /posts/
     
-  - title: "About Me"
-    url: /about/
+  - title: "About"
+    url: /about_homepage/
     
   - title: "Categories"
     url: /categories/

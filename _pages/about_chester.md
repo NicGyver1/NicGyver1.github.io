@@ -1,14 +1,15 @@
 ---
-permalink: /about/
-layout: single
-title: "About Me"
-toc: true
-toc_sticky: true
+permalink	: /about_chester/
+layout		: single
+title		: "About Chester"
+excerpt		: "Chester is the best pup."
+toc		: true
+toc_sticky	: true
 ---
 
 # TL;DR
-My name is Nicholas Piercy. 
-* I am insatiably curious.
+My *OG* doggo is Chester.
+* He is *THE* best doggo.
 * I am a problem solver.
 * I am a welder.
 * I am a diver.
