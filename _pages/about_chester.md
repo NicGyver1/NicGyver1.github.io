@@ -8,26 +8,31 @@ toc_sticky	: true
 ---
 
 # TL;DR
-My *OG* doggo is Chester.
-* He is *THE* best doggo.
-* I am a problem solver.
-* I am a welder.
-* I am a diver.
-* I enjoy traveling.
-* I enjoy learning.
-* I love to laugh.
-* I love pizza!
+Chester, the *good-est* boy.
+* He is an Australian Shepherd
+* He has a *"red merle"* coat and beautiful blue eyes.
+* He loves to play fetch.
+* He loves to snuggle.
+* He loves going for drives.
 
-# Hello there!
-When thinking of how to describe myself to the curious reader, I find it hard to put a box around who I am. In fact, I think describing *who I am* is somewhat impossible since we are all a work in progress, evolving into new people each and every day. 
+## Chester
+Chester joined my life in the summer of 2018. I had a trip planned to visit my sister who was temporarily living in Oklahoma. I found a breeder nearby to my sister who had a pup for sale
+and I inquired about the little guy. The breeder sent me photos and explained his personality a bit. Once I arrived in oklahoma, my sister and her daughter joined me in going to meet the 
+pup. He was so tiny, soft and cuddly. We arranged to pick him up the day before I started my road trip back home.\
 
-I consider myself a curious person, and I enjoy learning new things. I easily recognize patterns in my everyday life, which is likely a big contributor as to why I gravitated toward mathematics and engineering. Aside from my academic and professional ventures, I love to have fun and laugh. I have a rather dry sense of humor. I make lots of small jokes that usually go unnoticed, unless you are my brother, who gets my humor better than anyone else. I also like to make math puns that usually make no sense to anyone but me!
+I remember being so scared after picking him up, thinking that I would not be responsible enough for the pup. Now, many years later, It was the best decision i could have made. Chester is 
+my best friend and has helped me to get through some difficult moments in life. \
 
-I suppose I will describe a little bit about what I am currently doing with my time and what I have done in the past, then I'll leave the *who I am* bit as [*an excercise for the reader*](https://en.wikipedia.org/wiki/Proof_by_intimidation).
+Its a shame that doggos have much shorter lives than humans. And for that, I try my best to give him every bit of attention he deserves, and more! 
 
-## As of now
-I am currently working as a graduate student researcher at the [University of Nebraska-Lincoln](https://www.unl.edu). I am working on an approach to modeling the thermal history in additive manufaturing, specifically in wire arc additive manufacturing (WAAM). My work has been primarily focused on numerical techniques and code development supporting the computational approach.
+### His brother, Toka.
+For a few years, Chester had a big-little brother, Toka. He is a *"red tri"* australian shepherd, though his light brown colors never really came through. He is a rambunctous boy who
+givees the best snuggles. He is a floppy boy who is very independent but loves to get into everything. He's very curious and not affraid to get in his fair share of mischeif.\
 
-Prior to starting my graduate studies, I earned a bachelor of science degree in mathematics with a minor in physics from the University of Nebraska-Omaha. I obtained the degree over a long period of time, working full time in a steel fabrication shop during the day and completing coursework in the evenings.
+Toka grew to be about double the size of Chester, and he wasnt the most aware of his size. He would frequently bump into chester at full speed or accidentally trample Chester. For the 
+most part, chester was really good at forgivving Toka, though he made sure to be the alpha doggo!\
 
-## Some Back Story
+Unfortunately, Chester and Toka were separated when my first wife decided marriage wasn't for her. It took awhile for chester to re-adjust to being an only fur-child, and its apparent he 
+still misses his brother dearly.
+
+
