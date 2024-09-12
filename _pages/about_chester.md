@@ -30,7 +30,7 @@ For a few years, Chester had a big-little brother, Toka. He is a *"red tri"* aus
 givees the best snuggles. He is a floppy boy who is very independent but loves to get into everything. He's very curious and not affraid to get in his fair share of mischeif.\
 
 Toka grew to be about double the size of Chester, and he wasnt the most aware of his size. He would frequently bump into chester at full speed or accidentally trample Chester. For the 
-most part, chester was really good at forgivving Toka, though he made sure to be the alpha doggo!\
+most part, Chester was really good at forgivving Toka, though he made sure to be the alpha doggo!\
 
 Unfortunately, Chester and Toka were separated when my first wife decided marriage wasn't for her. It took awhile for chester to re-adjust to being an only fur-child, and its apparent he 
 still misses his brother dearly.
