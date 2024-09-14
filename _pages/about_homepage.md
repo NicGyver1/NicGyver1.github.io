@@ -6,12 +6,12 @@ excerpt: "The intention of this *About* page is to allow you to formulate your o
 
 AboutMe_gallery:
   - url		: /about_nic/
-    image_path	: /assets/images/Headshot_21Nov2018_4x5ratio.jpg
+    image_path	: assets/images/Headshot_21Nov2018_4x5ratio.jpg
     alt		: "Headshot image of Nicholas Piercy"
     title	: "Me"
 
   - url		: /about_chester/
-    image_path	: /assets/images/Chester_4x5ratio.jpg
+    image_path	: assets/images/Chester_4x5ratio.jpg
     alt		: "Image of Chester"
     title	: "My pal, Chester"
 

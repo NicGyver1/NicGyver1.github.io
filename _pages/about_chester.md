@@ -19,7 +19,7 @@ Chester, the *good-est* boy.
 
 <figure class="align-right" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;"> 
   <img
-   src   ="/assets/images/Chester_4x5ratio.jpg"
+   src   ="assets/images/Chester_4x5ratio.jpg"
    alt   ="Chester after grooming. Approx 3.5 years old.">
 <figcaption> Chester, 3 years old. </figcaption>
 </figure>
@@ -29,7 +29,7 @@ Chester joined my life in the summer of 2018. I had a trip planned to visit my s
 
 <figure class="align-left" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;">
   <img 
-   src   ="/assets/images/Chester_FirstMeet_Square.jpg"
+   src   ="assets/images/Chester_FirstMeet_Square.jpg"
    alt   ="Chester, approximately 8 weeks old."
   >
   <figcaption> First time meeting Chester. </figcaption>
