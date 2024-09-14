@@ -5,6 +5,14 @@ title		: "About Chester"
 excerpt		: "Chester is the best pup."
 toc		: true
 toc_sticky	: true
+
+# ![Chester_AfterGrooming]({{ site.url }}{{ site.baseurl }}/assets/images/Chester_4x5ratio.jpg){: width="50%"}{: caption="Chester at 3.5yo"}{: .align-right}
+
+#<figure  style="max-width: 50%" class="align-right">
+#  <img width="50%" src  ="{{site.url}}#{{site.baseurl}}/assets/images/Chester_4x5ratio.jpg" alt  ="Chester after grooming. #Approx 3.5 years old.">
+#  <figcaption>Chester at 3.5yo</figcaption>
+#</figure>
+
 ---
 
 # TL;DR
@@ -16,7 +24,24 @@ Chester, the *good-est* boy.
 * He loves going for drives.
 
 ## Chester
+
+<figure class="align-right" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;"> 
+  <img
+   src   ="{{site.url}}{{site.baseurl}}/assets/images/Chester_4x5ratio.jpg"
+   alt   ="Chester after grooming. Approx 3.5 years old.">
+<figcaption> Chester, 3 years old. </figcaption>
+</figure>
+
+
 Chester joined my life in the summer of 2018. I had a trip planned to visit my sister who was temporarily living in Oklahoma. I found a breeder nearby to my sister who had a pup for sale, and I inquired about the little guy. The breeder sent me photos and explained his personality a bit. Once I arrived in Oklahoma, my sister and her daughter joined me in going to meet the pup. He was so tiny, soft and cuddly. We arranged to pick him up the day before I started my road trip back home.
+
+<figure class="align-left" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;">
+  <img 
+   src   ="{{site.url}}{{site.baseurl}}/assets/images/Chester_FirstMeet_Square.jpg"
+   alt   ="Chester, approximately 8 weeks old."
+  >
+  <figcaption> First time meeting Chester. </figcaption>
+</figure>
 
 I remember being so scared after picking him up, thinking that I would not be responsible enough for the pup. Now, many years later, I can confidently say that it was the best decision I could have made. Chester is my very best companion, helping me get through the difficult moments in life.
 

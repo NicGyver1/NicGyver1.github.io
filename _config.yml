@@ -66,11 +66,12 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-figure
 
 
 author:
   name   : "Nicholas Piercy"
-  avatar : "/assets/images/Nicholas_Piercy_Headshot_11-21-2018.jpg"
+  avatar : "/assets/images/Headshot_21Nov2018_4x5ratio.jpg"
   bio    : "Graduate student in the Mechanical and Materials Engineering department at The University of Nebraska - Lincoln." # "My awesome biography constrained to a sentence or two goes here."
   
   links  :
