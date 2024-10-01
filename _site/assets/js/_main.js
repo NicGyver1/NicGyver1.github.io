@@ -61,7 +61,7 @@ $(document).ready(function () {
   }
 
   // Auto scroll sticky ToC with content
-  const scrollTocToContent = function (event) {
+  document.addEventListener("gumshoeActivate", function (event) {
     var target = event.target;
     var scrollOptions = { behavior: "auto", block: "nearest", inline: "start" };
 
@@ -75,12 +75,7 @@ $(document).ready(function () {
     } else {
       target.scrollIntoView(scrollOptions);
     }
-  };
-
-  // Has issues on Firefox, whitelist Chrome for now
-  if (!!window.chrome) {
-    document.addEventListener("gumshoeActivate", scrollTocToContent);
-  }
+  });
 
   // add lightbox class to all image links
   $(
@@ -195,23 +190,12 @@ $(document).ready(function () {
     var result = copyText(codeBlock.innerText);
     // Restore the focus to the button
     thisButton.focus();
-    if (result) {
-      if (thisButton.interval !== null) {
-        clearInterval(thisButton.interval);
-      }
-      thisButton.classList.add('copied');
-      thisButton.interval = setTimeout(function () {
-        thisButton.classList.remove('copied');
-        clearInterval(thisButton.interval);
-        thisButton.interval = null;
-      }, 1500);
-    }
     return result;
   };
 
   if (window.enable_copy_code_button) {
     document
-      .querySelectorAll(".page__content pre.highlight > code")
+      .querySelectorAll(".page__content pre > code")
       .forEach(function (element, index, parentList) {
         // Locate the <pre> element
         var container = element.parentElement;
@@ -222,7 +206,7 @@ $(document).ready(function () {
         var copyButton = document.createElement("button");
         copyButton.title = "Copy to clipboard";
         copyButton.className = "clipboard-copy-button";
-        copyButton.innerHTML = '<span class="sr-only">Copy code</span><i class="far fa-fw fa-copy"></i><i class="fas fa-fw fa-check copied"></i>';
+        copyButton.innerHTML = '<span class="sr-only">Copy code</span><i class="far fa-copy"></i>';
         copyButton.addEventListener("click", copyButtonEventListener);
         container.prepend(copyButton);
       });

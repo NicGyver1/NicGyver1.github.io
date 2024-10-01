@@ -48,7 +48,8 @@ github_username      	: NicGyver1
 search               	: true
 
 # Build theme settings
-theme 			: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.26.0"
+# theme 			: minimal-mistakes-jekyll
 minimal_mistakes_skin	: "contrast" # "air", "aqua", "contrast", "default", "dirt", "dark", "neon", "mint", "plum", "sunrise"
 
 
