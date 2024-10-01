@@ -14,65 +14,50 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title        : Nicholas Piercy's Website
-logo          : "/assets/images/NP_Logo.png"
-masthead_title: "Nicholas Piercy"
-email         :
-description   : >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-  You can edit this line in _config.yml. 
-  It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+locale		: "en-US"
+#title		: Nicholas Piercy
+title_separator	: "|"
+subtitle	: "My Personal Website"
+name		: "Nicholas Piercy"
+email		:
 
+description	: "Nicholas Piercy's personal website for sharing both personal blogs and professional work." 
+# description: appears in document head meta (for Google search results) and in feed.xml site description.
+
+url		: "https://nicholaspiercy.com"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl		: ""
+repository	: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser		: # path of fallback teaser image, e.g.
+logo		: "/assets/images/NP_Logo.png"
+masthead_title	: "Nicholas Piercy"
+# breadcrumbs	: false # true, false (default)
+words_per_minute: 200
+
+
+# Analytics
+analytics:
+  provider	: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  google	:
+    tracking_id	:
+
+
+# Social Sharing
 twitter_username	: username
 github_username      	: NicGyver1
 
 search               	: true
 
-# Build settings
-markdown     	      	: kramdown
-remote_theme          	: "mmistakes/minimal-mistakes@4.26.2" #mmistakes/minimal-mistakes
-minimal_mistakes_skin	: "dirt" # "air", "aqua", "default", "dark", "contrast", "neon", "mint", "plum", "sunrise"
-
-# Outputting
-permalink    	      	: /:categories/:title/
-timezone     		: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# Pagination with jekyll-paginate
-paginate     		: 5 # amount of posts to show
-paginate_path		: /page:num/
+# Build theme settings
+theme 			: minimal-mistakes-jekyll
+minimal_mistakes_skin	: "contrast" # "air", "aqua", "contrast", "default", "dirt", "dark", "neon", "mint", "plum", "sunrise"
 
 
-# Reading Files
-include:
-  - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. 
-# Create a custom list to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-figure
-
-
+# Site Author
 author:
   name   : "Nicholas Piercy"
   avatar : "/assets/images/Headshot_21Nov2018_4x5ratio.jpg"
-  bio    : "Graduate student in the Mechanical and Materials Engineering department at The University of Nebraska - Lincoln." # "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Graduate student in the Mechanical and Materials Engineering department at The University of Nebraska - Lincoln." 
+#  bio: "My awesome biography constrained to a sentence or two goes here."
   
   links  :
     - label: "Website"
@@ -88,6 +73,8 @@ author:
       icon : "fa-brands fa-linkedin"
       url  : "https://linkedin.com/in/piercynicholas"
 
+
+# Site Footer
 footer:
   links:
     - label: "Google Scholar"
@@ -100,29 +87,186 @@ footer:
       icon : "fa-brands fa-linkedin"
       url  : "https://linkedin.com"
 
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+#exclude:
+#  - "*.sublime-project"
+#  - "*.sublime-workspace"
+#  - vendor
+#  - .asset-cache
+#  - .bundle
+#  - .jekyll-assets-cache
+#  - .sass-cache
+#  - assets/js/plugins
+#  - assets/js/_main.js
+#  - assets/js/vendor
+#  - Capfile
+#  - CHANGELOG
+#  - config
+#  - Gemfile
+#  - Gruntfile.js
+#  - gulpfile.js
+#  - LICENSE
+#  - log
+#  - node_modules
+#  - package.json
+#  - Rakefile
+#  - README
+#  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Liquid
+strict_front_matter	: true
+liquid:
+  error_mode		: strict
+
+
+# Conversion
+markdown		: kramdown
+highlighter		: rouge
+lsi			: false
+excerpt_separator	: "\n\n"
+incremental		: false
+
+
+# Markdown Processing
+kramdown:
+  input		: GFM
+  hard_wrap	: false
+  auto_ids	: true
+  footnote_nr	: 1
+  entity_output	: as_char
+  toc_levels	: 1..6
+  smart_quotes	: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+    
+# Collections
+collections:
+  travel_posts:
+    output	: true
+    permalink	: /:collection/:path/
+  pets:
+    output	: true
+    permalink	: /:collection/:path/
+  portfolio:
+    output	: true
+    permalink	: /:collection/:path/
+
+
+# Defaults
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout		: single
+      author_profile	: true
+      read_time		: true
+      comments		: true
+      share		    : true
+      related		: true
+# _travel_posts
+  - scope:
+      path: "travel_posts"
+      type: travel_posts
+    values:
+      layout		: single
+      author_profile	: true
+      read_time		: true
+      comments		: true
+      share		    : true
+      related		: true
   # _pages
   - scope:
       path: "_pages"
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout		: single
+      author_profile	: true
+# _recipes
+  - scope:
+      path: ""
+      type: recipes
+    values:
+      layout		: single
+      author_profile	: true
+      share		: true
+  # _pets
+  - scope:
+      path: ""
+      type: pets
+    values:
+      layout		: single
+      author_profile	: true
+      share		: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout		: single
+      author_profile	: false
+      share		: true
 
+
+# Sass/SCSS
+sass:
+  sass_dir	: _sass
+  style		: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink    : /:categories/:title/
+paginate     : 5 # amount of posts to show
+paginate_path: /page:num/
+timezone     : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-figure
+
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-figure
+
+
+# Archives
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings	: all
+  ignore	:
+    envs	: development

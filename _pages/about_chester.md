@@ -19,7 +19,7 @@ Chester, the *good-est* boy.
 
 <figure class="align-right" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;"> 
   <img
-   src   ="/assets/images/Chester_4x5ratio.png"
+   src   ="/assets/images/Chester/Chester_4x5ratio.png"
    alt   ="Chester after grooming. Approx 3.5 years old."
   >
 <figcaption> Chester, 3 years old. </figcaption>
@@ -30,7 +30,7 @@ Chester joined my life in the summer of 2018. I had a trip planned to visit my s
 
 <figure class="align-left" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;">
   <img 
-   src   ="/assets/images/Chester_FirstMeet_Square.jpg"
+   src   ="/assets/images/Chester/Chester_FirstMeet_Square.jpg"
    alt   ="Chester, approximately 8 weeks old."
   >
   <figcaption> First time meeting Chester. </figcaption>
@@ -38,7 +38,23 @@ Chester joined my life in the summer of 2018. I had a trip planned to visit my s
 
 I remember being so scared after picking him up, thinking that I would not be responsible enough for the pup. Now, many years later, I can confidently say that it was the best decision I could have made. Chester is my very best companion, helping me get through the difficult moments in life.
 
+<figure class="align-right" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;"> 
+  <img
+   src   ="/assets/images/Chester/Chester_Ball.jpg"
+   alt   ="Chester with a tennis ball."
+  >
+<figcaption> Chester's love for playing ball started young. </figcaption>
+</figure>
+
 Chester is almost always up for playing ball. Fetch is his job, and he is a dedicated worker. Once he starts, there's no stopping him from going for hours on end! If he is ready for a break, he will stop on his way back from getting the ball and lay down for a bit, catching his breath. Moments later, he’s ready to go again! In the winter months, when it’s terribly cold outside, we will play fetch with soft rubber tennis balls inside.
+
+<figure class="align-left" style="max-width: 50%; margin-left: 1em; margin-right: 1em; margin-top: 1em; margin-bottom: 0em;"> 
+  <img
+   src   ="/assets/images/Chester/Chester_CarRide.jpg"
+   alt   ="Chester as seen in a rearview mirror during a car ride."
+  >
+<figcaption> Chester loves to go for car rides! </figcaption>
+</figure>
 
 Car rides are a blast for Chester. Of course, like most doggos, he loves having the windows down. He will stick his cute little nose out the window and continuously sniff, practically sending sneeze-stuff back inside the car! I made a bed that attaches to the center console for when he was smaller. It was a lifesaver for a couple of long road trips. Now that he is a bit bigger, he prefers sitting in my lap as I drive.
 

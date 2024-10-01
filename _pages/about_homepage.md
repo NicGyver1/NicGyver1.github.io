@@ -11,7 +11,7 @@ AboutMe_gallery:
     title	: "Me"
 
   - url		: /about_chester/
-    image_path	: assets/images/Chester_4x5ratio.png
+    image_path	: assets/images/Chester/Chester_4x5ratio.png
     alt		: "Image of Chester"
     title	: "My pal, Chester"
 

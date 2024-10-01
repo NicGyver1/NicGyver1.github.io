@@ -1,16 +1,18 @@
 main:
-  - title: "Posts"
-    url: /posts/
-    
   - title: "About"
     url: /about_homepage/
     
-  - title: "Categories"
-    url: /categories/
+  - title: "Travel"
+    url: /travel_homepage/
     
-  - title: "Tags"
-    url: /tags/
+#  - title: "Posts"
+#    url: /posts/
     
   - title: "Publications"
     url: /publications/
-  
+    
+#  - title: "Categories"
+#    url: /categories/
+    
+#  - title: "Tags"
+#    url: /tags/
