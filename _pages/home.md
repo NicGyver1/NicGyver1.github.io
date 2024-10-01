@@ -21,7 +21,7 @@ feature_row:
     btn_label	: "Go to About"
 
 
-  - image_path	: /assets/images/Italy/RomeColosseum.png
+  - image_path	: /assets/images/Italy/RomeColosseum_rfs.jpg
     alt		: "Photo of Nicholas inside the Roman Colosseum"
     title	: "Travel"
     excerpt	: "Travel opens the heart and expands the mind to a beauty which is often indescribable. <br /> <br /> *\"... the cultural world is one country.\"* <br />  - David Hilbert"
